@@ -24,8 +24,8 @@ vocales= "aeiouáéíóúü"
 
 # Salidas
 if primera_letra in vocales:
-    print(palabra,"comienza con vocal")
+    print("'" + palabra + "'","comienza con vocal")
 else:
-    print(palabra,"no comienza con vocal")
+    print("'" + palabra + "'", "no comienza con vocal")
 
 
