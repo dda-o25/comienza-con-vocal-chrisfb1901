@@ -1,15 +1,30 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+
+Christian Alonso Flores Burgos
+
+Fecha
+19 de septiembre de 2025
+
+Determinar si una palabra comienza con vocal.
+
 """
 
+
 # Declaraciones
-CONSTANTE = valor
 
 # Entradas
-entrada = input()
-
+palabra= input("Ingresa una palabra:")
+primera_letra = palabra[0].lower()
+vocales= "aeiouáéíóú"
 # Proceso
 
+primera_letra = palabra[0].lower()
+vocales= "aeiouáéíóú"
 
 # Salidas
-print(salida)
+if primera_letra in vocales:
+    print(palabra,"comienza con vocal")
+else:
+    print(palabra,"no comienza con vocal")
+
+
