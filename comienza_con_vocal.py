@@ -13,13 +13,14 @@ Determinar si una palabra comienza con vocal.
 # Declaraciones
 
 # Entradas
-palabra= input("Ingresa una palabra:")
+palabra= input("Escribe una palabra:")
 primera_letra = palabra[0].lower()
-vocales= "aeiouáéíóú"
+vocales= "aeiouáéíóúü"
+
 # Proceso
 
 primera_letra = palabra[0].lower()
-vocales= "aeiouáéíóú"
+vocales= "aeiouáéíóúü"
 
 # Salidas
 if primera_letra in vocales:
